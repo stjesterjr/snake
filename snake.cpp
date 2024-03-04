@@ -2,10 +2,17 @@
 //
 
 #include <iostream>
+#include <conio.h>
+
+void clear() {
+    std::cout << "\033c" << std::endl;
+}
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+    clear();
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
